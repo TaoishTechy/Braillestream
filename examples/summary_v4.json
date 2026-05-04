@@ -1,0 +1,50 @@
+{
+  "lander": {
+    "pr_norm": 0.9965397923875433,
+    "pr_raw": 0.22145328719723184,
+    "goal_agency": 0.4897959183673469,
+    "coverage": 0.0,
+    "law_cost": 4.5,
+    "active_laws": "thrust_gravity_drag,quantized_rotation,resource_thermodynamics,playable_reality"
+  },
+  "asteroids": {
+    "pr_norm": 0.4890524608570893,
+    "pr_raw": 0.09404855016482487,
+    "goal_agency": 0.23529411764705882,
+    "coverage": 0.0,
+    "law_cost": 5.2,
+    "active_laws": "central_gravity_well,toroidal_wrap,quantized_rotation,resource_thermodynamics,playable_reality"
+  },
+  "pressure": {
+    "pr_norm": 0.5498891352549888,
+    "pr_raw": 0.0785555907507127,
+    "goal_agency": 0.0,
+    "coverage": 0.0,
+    "law_cost": 7.0,
+    "active_laws": "thrust_gravity_drag,graph_pressure_diffusion,hysteresis_failure,resource_thermodynamics,playable_reality"
+  },
+  "freescape": {
+    "pr_norm": 0.43359626207613183,
+    "pr_raw": 0.04470064557485895,
+    "goal_agency": 0.0,
+    "coverage": 0.0,
+    "law_cost": 9.7,
+    "active_laws": "cuboid_collision,zone_gravity_friction,hydraulic_height,graph_pressure_diffusion,hysteresis_failure,resource_thermodynamics,playable_reality"
+  },
+  "colony": {
+    "pr_norm": 0.03481481481481481,
+    "pr_raw": 0.005802469135802468,
+    "goal_agency": 0.2222222222222222,
+    "coverage": 0.005208333333333333,
+    "law_cost": 6.0,
+    "active_laws": "cell_occupancy,quantized_rotation,toroidal_surface,power_suit_energy,resource_thermodynamics,playable_reality"
+  },
+  "semantic": {
+    "pr_norm": 0.06502985937073155,
+    "pr_raw": 0.06502985937073155,
+    "goal_agency": 0.5833333333333334,
+    "coverage": 0.0005787037037037037,
+    "law_cost": 6.1499999999999995,
+    "active_laws": "playable_reality,minimum_law_efficiency,compression_ratio,semantic_entropy"
+  }
+}
